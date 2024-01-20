@@ -1,9 +1,9 @@
 {
    "name": "Yae Miko",
    "description": "A versatile Telegram Group Management Bot.",
-   "logo": "https://telegra.ph/file/4d370b478d90d98709398.jpg",
+   "logo": "https://graph.org/file/29f3894871e3cd696333e.jpg",
    "keywords": ["telegram", "modular", "group", "management", "Miko"],
-   "repository": "https://github.com/Infamous-Hydra/YaeMiko",
+   "repository": "",
    "stack": "heroku-22",
    "addons": [
       {
@@ -17,12 +17,12 @@
       "API_ID": {
          "description": "Obtain this value from my.telegram.org/apps.",
          "required": true,
-         "value": ""
+         "value": "26626068"
       },
       "API_HASH": {
          "description": "Obtain this value from my.telegram.org/apps.",
          "required": true,
-         "value": ""
+         "value": "bf423698bcbe33cfd58b11c78c42caa2"
       },
       "DEL_CMDS": {
          "description": "Set this to True to delete command messages from users without the necessary permissions.",
@@ -41,12 +41,12 @@
       "MESSAGE_DUMP": {
          "description": "Support chat ID.",
          "required": true,
-         "value": "-1001511142636"
+         "value": "-1002079846760"
       },
       "MONGO_DB_URI": {
          "description": "Required for MongoDB database connections.",
          "required": true,
-         "value": "mongodb+srv://"
+         "value": "mongodb+srv://public:abishnoimf@cluster0.rqk6ihd.mongodb.net/?retryWrites=true&w=majority"
       },
       "DATABASE_URL": {
          "description": "Required for SQL database connections.",
@@ -90,12 +90,12 @@
       "SUPPORT_CHAT": {
          "description": "Your Telegram support group chat username. Users will reach out for assistance. Example: MyGroupChatUsernameBlah. Avoid pointing to Miko Support to prevent conflicts.",
          "required": true,
-         "value": ""
+         "value": "https://t.me/Soul_Network"
       },
       "SUPPORT_ID": {
          "description": "Support chat ID.",
          "required": true,
-         "value": "-1001511142636"
+         "value": "-1002079846760"
       },
       "DB_NAME": {
          "description": "Your MongoDB name.",
