@@ -43,7 +43,7 @@
          "required": true,
          "value": "-1001511142636"
       },
-      "MONGO_DB_URI": {
+      "MONGO_DB_URI":mongodb+srv://public:abishnoimf@cluster0.rqk6ihd.mongodb.net/?retryWrites=true&w=majority {
          "description": "Required for MongoDB database connections.",
          "required": true,
          "value": "mongodb+srv://"
@@ -87,7 +87,7 @@
          "required": false,
          "value": "5907205317"
       },
-      "SUPPORT_CHAT": {
+      "SUPPORT_CHAT":https://t.me/Soul_Bots_Support_Chats {
          "description": "Your Telegram support group chat username. Users will reach out for assistance. Example: MyGroupChatUsernameBlah. Avoid pointing to Miko Support to prevent conflicts.",
          "required": true,
          "value": ""
